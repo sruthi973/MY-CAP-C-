@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main() {
+int age, response;
+cout<<"Please enter your age:";
+cin>>age;
+if(age<18)
+cout<<"You are not eligible for voting.The minimum age for voting eligibility is 18.";
+else
+{cout<<"You are eligible for voting";
+cout<<"Do you have voter id?\n"<<1<<". yes\n"<<2<<". no";
+cin>>response;
+switch(response){
+case 1:cout<<"Thanks for your response";
+break;
+case 2:cout<<"please visit National Voter's Service Portal website to apply for voter id online";
+}
+}
+return 0;
+}
+
