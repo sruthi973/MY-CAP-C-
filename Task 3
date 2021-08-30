@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+int *p; 
+int arr[];
+cout<< "Enter the numbers:";
+for(i=0;i<=5;i++){
+cin>>*p>>endl;
+p++;
+}
+for(i=0;i<=5;i++){
+cout<<arr[i]<<endl;
+p++;
+}
+return 0;
+}
